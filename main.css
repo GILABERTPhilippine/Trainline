@@ -8,6 +8,8 @@ p {
     font-size: 16px;
 }
 
+/* Navbar */
+
 .navbar.navbar-default {
     background: #1d4e5e;
     color: white;
@@ -34,17 +36,21 @@ p {
 
 #compte {
     margin-right: 5%;
-    margin-left: 60%;
+    margin-left: 70%;
     margin-top: 1%;
+    letter-spacing: 1px;
 }
 
 #connect {
-    margin-top: 3.5%;
+    margin-top: 4.5%;
+    letter-spacing: 1px;
 }
 
 #aide {
     color: white;
 }
+
+/* Première partie */
 
 #titre {
     font-weight: bold;
@@ -58,6 +64,35 @@ p {
 .jumbotron {
     color: black;
     text-align: left;
+}
+
+/* JUM 1*/
+
+#jum1 {
+    margin-left: 25%;
+}
+
+#recherche {
+    margin-left: 31%;
+}
+
+#réduc {
+    font-size: 10px;
+}
+
+/* JUM 2 */
+
+#jum2 {
+    margin-right: 25%;
+}
+
+#lesPlus {
+    font-weight: bold;
+    /* margin-top: -5%; */
+}
+
+#img1 {
+    background: center no-repeat #21314D;
 }
 
 /* background: #21314D; */
