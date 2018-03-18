@@ -42,7 +42,7 @@
             <div class="col-sm-6">
                 <!-- First jumbotron -->
                 <div class="jumbotron" id="jum1">
-                    <h4 id="trajet">Quel est votre trajet ?</h4>
+                    <h5 id="trajet">Quel est votre trajet ?</h5>
                     <form>
                         <div class="input-group">
                             <span class="input-group-addon">
@@ -92,10 +92,18 @@
                 <!-- Second jumbotron -->
                 <div class="jumbotron" id="jum2">
                     <h3 id="lesPlus">Les petits plus de Trainline</h3>
-                    <img id="img1" src="https://assets.trainline.eu/assets/images/open-home/icons/icon-tag-white-db66a5509c672b244e93ffbadd28b873.svg">
-                    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects
-                        on the web.</p>
-                    <hr class="my-4">
+                    <div class="container" id="cont">
+                        <img id="img1" src="https://assets.trainline.eu/assets/images/open-home/icons/icon-tag-white-db66a5509c672b244e93ffbadd28b873.svg">
+                        <h4>Vos billets au meilleur prix</h4>
+                        <p>Achetez vos billets aux prix fixés par les transporteurs, sans frais supplémentaires.</p>
+                        <img id="img2" src="https://assets.trainline.eu/assets/images/open-home/icons/icon-loyalty-card-white-b8fbb92eff5da55d89f515dc5e2b4031.svg">
+                        <h4>Cartes de réduction</h4>
+                        <p>Elles sont toutes acceptées, comme vos cartes de fidélité.</p>
+                        <img id="img3" src="https://assets.trainline.eu/assets/images/open-home/icons/icon-payment-white-13f3f68e4a260d165dd0bffc1514a98a.svg">
+                        <h4>Payez en toute sécurité</h4>
+                        <p>CB, Amex, PayPal, Chèques-Vacances ANCV : c’est vous qui voyez.</p>
+                        <hr class="my-4">
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,40 +111,62 @@
 
     <!-- Second Container -->
     <div class="container-fluid bg-2 text-center">
-        <h3 class="margin">What Am I?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <a href="#" class="btn btn-default btn-lg">
-            <span class="glyphicon glyphicon-search"></span> Search
-        </a>
+        <div class="jumbotron" id="jum3">
+            <h3>Ils nous font confiance. Nous vendons leurs billets.</h3>
+            <img src="logos/partenaire.png">
+            <h3>Tous les billets. Un seul guichet.</h3>
+            <h5>Nous vendons tous les billets que vous avez l’habitude d’acheter en France et tous ceux dont vous pourriez avoir
+                besoin à l’étranger.</h5>
+        </div>
     </div>
 
     <!-- Third Container (Grid) -->
     <div class="container-fluid bg-3 text-center">
-        <h3 class="margin">Where To Find Me?</h3>
-        <br>
         <div class="row">
-            <div class="col-sm-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.</p>
-                <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            <div class="col-sm-6" id="part1">
+                <img src="logos/illu-1-travel-bc3683df69fd87bdffc7186f25fe1875.jpg" class="img-responsive margin" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.</p>
-                <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            <div class="col-sm-6" id="part2">
+                <h3>C’est simple et c’est tout.</h3>
+                <h4>Consultez les horaires des trains et le prix des billets dans une interface claire. Nous comparons les prix
+                    de plusieurs transporteurs, pour que vous n’ayez pas à le faire.</h4>
             </div>
-            <div class="col-sm-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.</p>
-                <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        </div>
+        <div class="row">
+            <div class="col-sm-6" id="part3">
+                <h3>La très grande vitesse. Dès l’achat du billet.</h3>
+                <h4>Trouvez et payez vos billets sur notre site en moins de temps qu’il n’en faut pour perdre patience sur un
+                    site ordinaire. Soit à peu près 58 secondes.</h4>
+            </div>
+            <div class="col-sm-6" id="part4">
+                <img src="logos/illu-2-high-speed-trains-03a963b378417100e9b9a57d354b4243.jpg" class="img-responsive margin" style="width:100%"
+                    alt="Image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" id="part5">
+                <img src="logos/illu-3-rails-6bbf1629d7fdf8dfa9fe4220f67f6045.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-6" id="part6">
+                <h3>Sans pub et sans reproche.</h3>
+                <h4>En choisissant de ne vendre que des billets, nous avons dû laisser certaines choses de côté, comme les publicités,
+                    les messages et les erreurs incompréhensibles.</h4>
             </div>
         </div>
     </div>
+    <div class="container-fluid bg-4 text-center">
+        <h3>Découvrez l’Europe en train</h3>
+        <h4>Voyagez en train facilement et partout en Europe grâce aux pass Interrail.</h4>
+        <img src="logos/Capture d’écran 2018-03-18 à 19.59.12.png">
+        <br>
+        <br>
+        <a href="#" class="btn btn-default btn-lg" id="pass">
+            ACHETER UN PASS
+        </a>
+    </div>
 
     <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center">
+    <footer class="container-fluid bg-5 text-center">
         <p>Bootstrap Theme Made By
             <a href="https://www.w3schools.com">www.w3schools.com</a>
         </p>

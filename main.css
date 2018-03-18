@@ -52,6 +52,13 @@ p {
 
 /* Première partie */
 
+.bg-1 {
+    background-color: #1abc9c;
+    /* Green */
+    color: #ffffff;
+    padding-bottom: 12%;
+}
+
 #titre {
     font-weight: bold;
     margin-bottom: 45px;
@@ -70,6 +77,7 @@ p {
 
 #jum1 {
     margin-left: 25%;
+    background: white;
 }
 
 #recherche {
@@ -84,38 +92,90 @@ p {
 
 #jum2 {
     margin-right: 25%;
+    background: white;
 }
 
 #lesPlus {
     font-weight: bold;
+    margin-top: -4%;
+    /* background: #21314D; */
     /* margin-top: -5%; */
 }
 
-#img1 {
-    background: center no-repeat #21314D;
+#cont {
+    margin-top: 6.5%;
 }
 
-/* background: #21314D; */
-
-.bg-1 {
-    background-color: #1abc9c;
-    /* Green */
-    color: #ffffff;
+.jumbotron p {
+    font-size: 12px;
+    margin-left: 12%;
 }
+
+.jumbotron h4 {
+    margin-left: 12%;
+    margin-top: -9%;
+}
+
+#img1,
+#img2,
+#img3 {
+    background: #21314D;
+}
+
+/* Seconde partie */
 
 .bg-2 {
-    background-color: #474e5d;
-    /* Dark Blue */
-    color: #ffffff;
+    background-color: white;
+}
+
+#jum3 {
+    margin-left: 12%;
+    margin-top: -15%;
+    margin-right: 12%;
+    margin-bottom: -4%;
+    background: white;
+    text-align: center;
 }
 
 .bg-3 {
     background-color: #ffffff;
-    /* White */
     color: #555555;
+    padding-right: 0;
+    padding-left: 0;
 }
 
+#part1,
+#part2,
+#part3,
+#part4,
+#part5,
+#part6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Troisème partie */
+
+.bg-3 h3 {
+    font-weight: bold;
+}
+
+/* Quatrième partie */
+
 .bg-4 {
+    background-color: #21314d;
+    padding-bottom: 70px;
+}
+
+#pass {
+    background: #01c3a7;
+    color: white;
+    border-color: #01aa91 #01aa91 #017766;
+}
+
+/* cinquième partie */
+
+.bg-5 {
     background-color: #2f2f2f;
     /* Black Gray */
     color: #fff;
@@ -123,5 +183,4 @@ p {
 
 .container-fluid {
     padding-top: 70px;
-    padding-bottom: 70px;
 }
