@@ -13,32 +13,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Trainline</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="trainline" class="navbar-brand" href="#">Trainline</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <button type="button" class="btn btn-info btn-md" id="compte" data-toggle="modal" data-target="#myModal">CREER UN COMPTE</button>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-info btn-md" id="connect" data-toggle="modal" data-target="#myModal">SE CONNECTER</button>
-                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"></a>
+                        <li>
+                            <button type="button" class="btn btn-info btn-md" id="compte" data-toggle="modal" data-target="#myModal">CREER UN COMPTE</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-info btn-md" id="connect" data-toggle="modal" data-target="#myModal">SE CONNECTER</button>
+                        </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a id="aide">AIDE</a>
+                        <a id="aide" href="#">AIDE</a>
                     </li>
+
                 </ul>
             </div>
         </div>
     </nav>
+
     <!-- First Container -->
     <div class="container-fluid bg-1 text-center">
         <h1 id="titre">Réserver vos billet de train. En France et en Europe.</h1>
-        <h4 id="sousTitre">Voyagez avec Trainline, leader indépendant de la vente de billets de train en Europe.</h4>
+        <h4 class="visible-lg" id="sousTitre">Voyagez avec Trainline, leader indépendant de la vente de billets de train en Europe.</h4>
         <div class="row">
             <div class="col-sm-6">
                 <!-- First jumbotron -->
@@ -111,10 +120,10 @@
     </div>
 
     <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center">
+    <div class="container-fluid visible-lg bg-2 text-center">
         <div class="jumbotron" id="jum3">
             <h3>Ils nous font confiance. Nous vendons leurs billets.</h3>
-            <img src="logos/partenaire.png" class="img-responsive margin" id="partenaire">
+            <img src="logos/partenaire.png" class="img-responsive" id="partenaire">
             <h3>Tous les billets. Un seul guichet.</h3>
             <h5>Nous vendons tous les billets que vous avez l’habitude d’acheter en France et tous ceux dont vous pourriez avoir
                 besoin à l’étranger.</h5>
@@ -122,33 +131,33 @@
     </div>
 
     <!-- Third Container (Grid) -->
-    <div class="container-fluid bg-3 text-center">
+    <div class="container-fluid visible-lg bg-3 text-center">
         <div class="row">
-            <div class="col-sm-6" id="part1">
-                <img src="logos/illu-1-travel-bc3683df69fd87bdffc7186f25fe1875.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            <div class="col-md-6" id="part1">
+                <img src="logos/illu-1-travel-bc3683df69fd87bdffc7186f25fe1875.jpg" class="img-responsive" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-6" id="part2">
+            <div class="col-md-6" id="part2">
                 <h3>C’est simple et c’est tout.</h3>
                 <h4>Consultez les horaires des trains et le prix des billets dans une interface claire. Nous comparons les prix
                     de plusieurs transporteurs, pour que vous n’ayez pas à le faire.</h4>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6" id="part3">
+            <div class="col-md-6" id="part3">
                 <h3>La très grande vitesse. Dès l’achat du billet.</h3>
                 <h4>Trouvez et payez vos billets sur notre site en moins de temps qu’il n’en faut pour perdre patience sur un
                     site ordinaire. Soit à peu près 58 secondes.</h4>
             </div>
-            <div class="col-sm-6" id="part4">
-                <img src="logos/illu-2-high-speed-trains-03a963b378417100e9b9a57d354b4243.jpg" class="img-responsive margin" style="width:100%"
+            <div class="col-md-6" id="part4">
+                <img src="logos/illu-2-high-speed-trains-03a963b378417100e9b9a57d354b4243.jpg" class="img-responsive" style="width:100%"
                     alt="Image">
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6" id="part5">
-                <img src="logos/illu-3-rails-6bbf1629d7fdf8dfa9fe4220f67f6045.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            <div class="col-md-6" id="part5">
+                <img src="logos/illu-3-rails-6bbf1629d7fdf8dfa9fe4220f67f6045.jpg" class="img-responsive" style="width:100%" alt="Image">
             </div>
-            <div class="col-sm-6" id="part6">
+            <div class="col-md-6" id="part6">
                 <h3>Sans pub et sans reproche.</h3>
                 <h4>En choisissant de ne vendre que des billets, nous avons dû laisser certaines choses de côté, comme les publicités,
                     les messages et les erreurs incompréhensibles.</h4>
@@ -160,12 +169,12 @@
         <div class="row">
             <div class="col-sm-6 text-center" id="col1">
                 <h5>Paiement</h5>
-                <img src="logos/Capture d’écran 2018-03-19 à 12.24.09.png" class="img-responsive margin" id="paypal">
+                <img src="logos/Capture d’écran 2018-03-19 à 12.24.09.png" class="img-responsive" id="paypal">
                 <h5>Nous soignons et sécurisons vos achats comme s’ils n’avaient pas de prix.</h5>
             </div>
             <div class="col-sm-6 text-center">
                 <h5>Billet</h5>
-                <img src="logos/Capture d’écran 2018-03-19 à 12.24.13.png" class="img-responsive margin" id="billet">
+                <img src="logos/Capture d’écran 2018-03-19 à 12.24.13.png" class="img-responsive" id="billet">
                 <h5>Vous obtenez un billet cartonné à retirer en gare ou un e-billet à imprimer chez vous.</h5>
             </div>
         </div>
@@ -173,7 +182,7 @@
     <div class="container-fluid bg-5 text-center">
         <h3>Découvrez l’Europe en train</h3>
         <h4>Voyagez en train facilement et partout en Europe grâce aux pass Interrail.</h4>
-        <img src="logos/Capture d’écran 2018-03-18 à 19.59.12.png" class="img-responsive margin" id="globe">
+        <img src="logos/Capture d’écran 2018-03-18 à 19.59.12.png" class="img-responsive" style="width:30%" id="globe">
         <br>
         <br>
         <a href="#" class="btn btn-default btn-lg" id="pass">

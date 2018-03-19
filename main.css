@@ -10,9 +10,10 @@ p {
 
 /* Navbar */
 
-.navbar.navbar-default {
+.navbar.navbar-inverse {
     background: #1d4e5e;
     color: white;
+    margin-top: -5%;
 }
 
 .navbar {
@@ -25,8 +26,16 @@ p {
     letter-spacing: 5px;
 }
 
-.navbar-default .navbar-brand {
+.navbar-inverse .navbar-brand {
     color: #fff;
+}
+
+/* #trainline {
+    margin-left: 48%;
+} */
+
+.navbar-toggle {
+    float: left;
 }
 
 .btn.btn-info.btn-md {
@@ -36,13 +45,13 @@ p {
 
 #compte {
     margin-right: 5%;
-    margin-left: 70%;
+    margin-left: 65%;
     margin-top: 1%;
     letter-spacing: 1px;
 }
 
 #connect {
-    margin-top: 4.5%;
+    margin-top: 4%;
     letter-spacing: 1px;
 }
 
@@ -216,13 +225,14 @@ p {
 }
 
 #pass {
+    margin-top: -7%;
     background: #01c3a7;
     color: white;
     border-color: #01aa91 #01aa91 #017766;
 }
 
 #globe {
-    margin-left: 41.5%;
+    margin-left: 37%;
 }
 
 /* cinquième partie */
