@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Trainline</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css" />
@@ -113,7 +114,7 @@
     <div class="container-fluid bg-2 text-center">
         <div class="jumbotron" id="jum3">
             <h3>Ils nous font confiance. Nous vendons leurs billets.</h3>
-            <img src="logos/partenaire.png">
+            <img src="logos/partenaire.png" class="img-responsive margin" id="partenaire">
             <h3>Tous les billets. Un seul guichet.</h3>
             <h5>Nous vendons tous les billets que vous avez l’habitude d’acheter en France et tous ceux dont vous pourriez avoir
                 besoin à l’étranger.</h5>
@@ -155,9 +156,24 @@
         </div>
     </div>
     <div class="container-fluid bg-4 text-center">
+        <h3>Comment ça marche ?</h3>
+        <div class="row">
+            <div class="col-sm-6 text-center" id="col1">
+                <h5>Paiement</h5>
+                <img src="logos/Capture d’écran 2018-03-19 à 12.24.09.png" class="img-responsive margin" id="paypal">
+                <h5>Nous soignons et sécurisons vos achats comme s’ils n’avaient pas de prix.</h5>
+            </div>
+            <div class="col-sm-6 text-center">
+                <h5>Billet</h5>
+                <img src="logos/Capture d’écran 2018-03-19 à 12.24.13.png" class="img-responsive margin" id="billet">
+                <h5>Vous obtenez un billet cartonné à retirer en gare ou un e-billet à imprimer chez vous.</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-5 text-center">
         <h3>Découvrez l’Europe en train</h3>
         <h4>Voyagez en train facilement et partout en Europe grâce aux pass Interrail.</h4>
-        <img src="logos/Capture d’écran 2018-03-18 à 19.59.12.png">
+        <img src="logos/Capture d’écran 2018-03-18 à 19.59.12.png" class="img-responsive margin" id="globe">
         <br>
         <br>
         <a href="#" class="btn btn-default btn-lg" id="pass">
@@ -166,9 +182,15 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container-fluid bg-5 text-center">
-        <p>Bootstrap Theme Made By
-            <a href="https://www.w3schools.com">www.w3schools.com</a>
+    <footer class="container-fluid bg-6">
+        <p>Suivez-nous &nbsp
+            <a href="#">
+                <i class="fa fa-facebook-square"></i>
+            </a>&nbsp
+            <a href="#">
+                <i class="fa fa-twitter-square"></i>
+            </a>
+            <img src="logos/Capture d’écran 2018-03-19 à 11.12.09.png" class="img-responsive margin" alt="paiement" id="paiement">
         </p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

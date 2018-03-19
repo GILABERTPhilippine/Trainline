@@ -95,6 +95,10 @@ p {
     background: white;
 }
 
+.jumbotron h4 {
+    color: #1abc9c;
+}
+
 #lesPlus {
     font-weight: bold;
     margin-top: -4%;
@@ -128,6 +132,11 @@ p {
     background-color: white;
 }
 
+.bg-2 h3 {
+    color: #21314d;
+    font-weight: bold;
+}
+
 #jum3 {
     margin-left: 12%;
     margin-top: -15%;
@@ -135,6 +144,10 @@ p {
     margin-bottom: -4%;
     background: white;
     text-align: center;
+}
+
+#partenaire {
+    margin-left: 8%;
 }
 
 .bg-3 {
@@ -154,15 +167,50 @@ p {
     padding-right: 0;
 }
 
+.row {
+    margin-right: 0%;
+}
+
 /* Troisème partie */
 
 .bg-3 h3 {
     font-weight: bold;
+    color: #21314d;
 }
 
 /* Quatrième partie */
 
 .bg-4 {
+    padding-bottom: 70px;
+}
+
+.bg-4 h3 {
+    color: #21314d;
+    margin-top: -3%;
+    margin-bottom: 5%;
+}
+
+.bg-4 h5 {
+    color: black;
+}
+
+#paypal {
+    margin-left: 18%;
+}
+
+#billet {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#col1 {
+    border-right: solid;
+    border-right-color: black;
+}
+
+/* Cinquième partie */
+
+.bg-5 {
     background-color: #21314d;
     padding-bottom: 70px;
 }
@@ -173,12 +221,27 @@ p {
     border-color: #01aa91 #01aa91 #017766;
 }
 
+#globe {
+    margin-left: 41.5%;
+}
+
 /* cinquième partie */
 
-.bg-5 {
-    background-color: #2f2f2f;
-    /* Black Gray */
-    color: #fff;
+.bg-6 {
+    background-color: white;
+    color: black;
+}
+
+.bg-6 p {
+    margin-top: -2%;
+}
+
+.fa {
+    font-size: 40px;
+}
+
+#paiement {
+    float: right;
 }
 
 .container-fluid {
